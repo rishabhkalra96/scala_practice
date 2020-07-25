@@ -8,5 +8,16 @@ def isUnique(x: String): String = {
   return "unique"
 }
 
+def isUniqueEfficient(x: String): String = {
+  var checker: Int = 0
+  x.foreach(char => {
+    val value: Int = char - 'a'
+    if ((checker & (1 << value)) > 0) return "not unique"
+    else checker |= 1<<value
+  })
+  return "unique"
+}
+
 val answer = isUnique(args(0))
+println("using efficient approach --> " + isUniqueEfficient(args(0)))
 println(answer)
