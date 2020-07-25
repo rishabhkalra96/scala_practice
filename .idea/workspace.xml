@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71b9d72e-422a-44c9-b7dd-9be37c99d3e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1f4KNK1byVoNGM6xfQF1eXhmfm1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="scala_projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71b9d72e-422a-44c9-b7dd-9be37c99d3e0" name="Default Changelist" comment="" />
+      <created>1595471885729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595471885729</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="871" y="422" width="424" height="513" key="FileChooserDialogImpl" timestamp="1595560445583">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="871" y="422" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1595560445583" />
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom" timestamp="1595472264466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595472264466" />
+    <state width="1354" height="260" key="GridCell.Tab.0.center" timestamp="1595472264466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595472264466" />
+    <state width="1354" height="260" key="GridCell.Tab.0.left" timestamp="1595472264465">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595472264465" />
+    <state width="1354" height="260" key="GridCell.Tab.0.right" timestamp="1595472264466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595472264466" />
+    <state x="402" y="405" width="1372" height="547" key="new project wizard" timestamp="1595560449143">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="402" y="405" width="1372" height="547" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1595560449143" />
+  </component>
+</project>
