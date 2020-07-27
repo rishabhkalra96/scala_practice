@@ -1,7 +1,6 @@
 import Robot.callme
 
-object MainTrigger {
-  def main(args: Array[String]) {
+object MainTrigger extends App{
     var counter = 0
     for (arg <- args) {
     if(callme(arg))
@@ -9,4 +8,3 @@ object MainTrigger {
     }
     println("Total counts are " + counter)
   }
-}
