@@ -33,6 +33,8 @@ class Rational (n: Int, d: Int) {
  def max (that: Rational) = if (lessThan(that)) that else this
 }
 
+implicit def intToRational(x: Int) = new Rational(x)
+
 val value1 = new Rational(3,1)
 val value2 = new Rational(4,1)
 val sum = (value1) + (value2)
@@ -45,3 +47,4 @@ println(s"product of two values ${value1} and ${value2}is ${value1 * value2}")
 println(s"sum of 2 and ${value2} is ${value2 + 2}")
 println(s"product of 2 and ${value2} is ${value2 * 2}")
 println(s"sub of ${value2} and 2 is ${value2 - 2}")
+println(s"opposite of above statement sum will also work -> ${2} + ${value2} = ${2 + value2}")
