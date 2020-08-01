@@ -12,7 +12,21 @@ class Rational (n: Int, d: Int) {
  def this(n: Int) = this(n,1) // auxiliary constructor, like overloaded constructor
  override def toString = s"${numerator}/${denominator}"
 
- def add (that: Rational): Rational = new Rational((this.numerator*that.denominator + that.numerator * this.denominator), this.denominator*that.denominator)
+ def + (that: Rational): Rational = new Rational((this.numerator*that.denominator + that.numerator * this.denominator), this.denominator*that.denominator)
+
+ def + (i: Int): Rational = new Rational (numerator + i * denominator, denominator)
+
+ def - (that: Rational): Rational = new Rational (numerator * that.denominator - that.numerator * denominator, denominator * that.denominator)
+
+ def - (i: Int): Rational = new Rational (numerator - i * denominator, denominator)
+
+ def * (that: Rational): Rational = new Rational(numerator * that.numerator, denominator * that.denominator)
+
+ def * (i: Int): Rational = new Rational (numerator * i, denominator)
+
+ def / (that: Rational): Rational = new Rational (numerator * that.denominator, denominator * that.numerator)
+
+ def / (i: Int): Rational = new Rational (numerator, denominator*i)
 
  def lessThan (that: Rational) = numerator * that.denominator < that.numerator * denominator
 
@@ -21,9 +35,13 @@ class Rational (n: Int, d: Int) {
 
 val value1 = new Rational(3,1)
 val value2 = new Rational(4,1)
-val sum = (value1).add(value2)
+val sum = (value1) + (value2)
 println(s"sum of ${value1} and ${value2} is ${sum}")
 println(s"is ${value1} < ${value2} = ${value1 lessThan value2}")
 println(s"max of ${value1} and ${value2} is ${value1 max value2}")
 println(s"value after invoking with one parameter is ${new Rational(3)}")
 println(s"simplest form of 66/42 is ${new Rational(66, 42)}")
+println(s"product of two values ${value1} and ${value2}is ${value1 * value2}")
+println(s"sum of 2 and ${value2} is ${value2 + 2}")
+println(s"product of 2 and ${value2} is ${value2 * 2}")
+println(s"sub of ${value2} and 2 is ${value2 - 2}")
